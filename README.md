@@ -31,7 +31,9 @@ https://www.youtube.com/watch?v=CltG7Nm5H04
 This work is associated with the following registered patent:
 
 **Electronic vote record management system based on blockchain**
+
 Patent No.: KR 10-2317656
+
 Issued: October 20, 2021
 
 The patented technology provides a blockchain-based framework for securely managing electronic voting records, tracking system changes, and verifying data integrity through distributed ledger technology.
