@@ -1,44 +1,61 @@
 # Pulling-Polling [2018 DGU Capstone Design]
+ 
+A blockchain-based hybrid application for conducting online voting and surveys, developed as a one-year Capstone Design graduation project at Dongguk University (2018).
 
-An hybrid application for helping conduct online voting and survey.
+---
 
-## Developers
+## About
 
-#### Team Leader
-- 함의진
+Pulling-Polling is an electronic voting and survey platform designed to improve the security, transparency, and reliability of online voting by leveraging blockchain technology.
 
-#### Team Member
-- 정재엽
-- 원양
+Unlike conventional systems that store only voting results, this project records all related actions and changes as immutable history on blockchain networks. This includes vote creation, participation, candidate updates, and other system events.
 
-## Contact
+The system integrates:
 
-- Facebook : [PullingPolling on Facebook](https://www.facebook.com/pullingpolling)
-- Google+ : [PullingPolling on Google+](https://plus.google.com/u/2/100278896118356850382?hl=ko)
-- Twitter : [PullingPolling on Twitter](https://twitter.com/pullingpolling1)
+* A decentralized application (dApp) for user interaction
+* Private blockchain networks for distributed history storage
+* A central database for operational data and verification
 
-### Prerequisites
+Each user action is structured, hashed using SHA-256, and recorded on blockchain nodes. This enables integrity verification, transparent auditing, and elimination of single points of failure.
 
-PHP and its server with Geth
+This system was developed in the Department of Computer Science and Engineering at Dongguk University as a Capstone Design graduation project (2018).
 
-### Functions
+A video demonstration of the Pulling-Polling system is available on YouTube:
 
-- Voting and Survey function with Geth Based history Management System
+https://www.youtube.com/watch?v=CltG7Nm5H04
 
-## Licenses
+---
 
-- MIT
+## Patent
 
-## Contributing
+This work is associated with the following registered patent:
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+**Electronic vote record management system based on blockchain**
+Patent No.: KR 10-2317656
+Issued: October 20, 2021
 
-## Versioning
+The patented technology provides a blockchain-based framework for securely managing electronic voting records, tracking system changes, and verifying data integrity through distributed ledger technology.
 
-We use [GitHub](https://github.com) for versioning. For the versions available, see the [GitHub](https://github.com/CSID-DGU/2018-2-CECD-Sophist-1-4). 
+---
 
-See also the list of [Projects](https://github.com/your/project/contributors) which are developed as capstone design 2018.
+## Academic Advisor
 
-## Acknowledgments
+Prof. Dong Ho Kim
+Associate Professor, Software Education Institute
+Dongguk University
 
-* This Project is being modified with feedback through CSID Manager
+Profile: https://pure.dongguk.edu/en/persons/dong-ho-kim/
+
+---
+
+## Students
+* EuiJin Ham
+* Jaeyeop Chung
+* Yuan Yang
+
+---
+
+## License
+
+MIT License
+
